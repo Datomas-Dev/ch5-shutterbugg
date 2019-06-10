@@ -1,0 +1,88 @@
+/* Stylesheet for Shutterbugg Project for Chapter 5
+	Author:
+	Date
+	filename: styles.css
+*/
+
+a {
+	color: rgb(218,218,218);
+}
+
+a:hover {
+	color: rgb(0,218,218);
+	text-decoration: none;
+}
+
+.container {
+	max-width: 928px;
+}
+
+.main {
+	height: 550px;
+	background-image: url(../images/intro.jpg);
+	background-size: cover;
+	padding-top: 30px;
+}
+
+.main h1 {
+	font-family: 'Suez One', serif;
+	font-size: 3em;
+	text-shadow: orange 4px 2px 2px;
+	transition: text-shadow 2s;
+}
+
+.main h2 {
+	margin-bottom: 40px;
+}
+
+.main a {
+	font-size: 24px;
+}
+
+.btn {
+	background-color: darkorange;
+	color: white;
+	border-radius: 16px;
+
+	transition: background-color 0.5s, color 0.5s;
+}
+
+.btn:hover {
+	color: white;
+	background-color: orange;
+}
+
+.section .row {
+	padding-top: 60px;
+}
+
+.row h1 {
+	font-family: 'Suez One', serif;
+}
+
+.row p, .btn {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.6em;
+}
+
+#store {
+	padding: 30px  10px;
+	text-align: center;
+	/*border-bottom: 1px solid black;*/
+}
+
+.footer {
+	background-color: darkorange;
+	color: white;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.footer h1 {
+	font-size: 1.6em;
+}
+
+.footer ul {
+	list-style-type: none;
+	padding: 0;
+}
